@@ -1,0 +1,131 @@
+{
+    "config": {
+        "port": 3000,
+        "os": "win32",
+        "editor": {
+            "mode": "extension",
+            "agent": "vscode",
+            "version": "5.0.390"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "http://localhost:3000",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "auto",
+        "autoPlay": true,
+        "projectType": "project",
+        "grading": "isolated",
+        "exercisesPath": "./",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "suggestions": {
+            "agent": null
+        },
+        "warnings": {},
+        "title": {
+            "us": "Probability Exercises Project in Python",
+            "es": "Proyecto de Ejercicios de Probabilidad con Python"
+        },
+        "slug": "probability-exercises-project-in-python",
+        "preview": "https://github.com/4GeeksAcademy/probability-exercises-project-in-python/blob/main/preview.jpeg?raw=true",
+        "solution": "https://github.com/4GeeksAcademy/probability-exercises-project-in-python/blob/main/notebook/solutions.ipynb",
+        "status": "published",
+        "translations": [
+            "us"
+        ],
+        "technologies": [
+            "matplotlib",
+            "numpy",
+            "pandas",
+            "python, github",
+            "machine learning",
+            "data science"
+        ],
+        "difficulty": "beginner",
+        "syntax": "python",
+        "duration": 2,
+        "template_url": "self",
+        "autoStart": false,
+        "description": {
+            "us": "Use your skills with numpy, pandas, and matplotlib to practice some probability concepts.",
+            "es": "Usa tus habilidades con numpy, pandas y matplotlib para practicar un poco sobre probabilidades."
+        },
+        "gitpod": true
+    },
+    "address": "http://localhost:3000",
+    "currentExercise": null,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "assets",
+            "slug": "assets",
+            "translations": {},
+            "language": null,
+            "entry": null,
+            "title": "assets",
+            "graded": false,
+            "files": [
+                {
+                    "path": "assets/devcontainer-image.png",
+                    "name": "devcontainer-image.png",
+                    "hidden": true
+                },
+                {
+                    "path": "assets/image-kernel.png",
+                    "name": "image-kernel.png",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "notebook",
+            "slug": "notebook",
+            "translations": {},
+            "language": null,
+            "entry": null,
+            "title": "notebook",
+            "graded": false,
+            "files": [
+                {
+                    "path": "notebook/.gitkeep",
+                    "name": ".gitkeep",
+                    "hidden": true
+                },
+                {
+                    "path": "notebook/problems.es.ipynb",
+                    "name": "problems.es.ipynb",
+                    "hidden": true
+                },
+                {
+                    "path": "notebook/problems.ipynb",
+                    "name": "problems.ipynb",
+                    "hidden": true
+                },
+                {
+                    "path": "notebook/solutions.ipynb",
+                    "name": "solutions.ipynb",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ],
+    "bugsLink": null,
+    "videoSolutions": false,
+    "localhostOnly": false,
+    "session": 3951254411753887000
+}
